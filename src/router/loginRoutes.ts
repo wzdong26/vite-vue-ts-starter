@@ -5,8 +5,8 @@ const loginRoutes = [
         meta: {
             title: '登 录',
         },
-        component: () => import('@/views/login/index.vue')
+        component: () => import('@/views/Login/Index.vue'),
     },
-];
+]
 
-export default loginRoutes;
+export default loginRoutes
