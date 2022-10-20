@@ -6,7 +6,6 @@ specifiers:
   '@vueuse/core': v7.1.2
   axios: ^0.24.0
   pinia: ^2.0.22
-  qrcode: ^1.5.0
   typescript: ^4.8.3
   vite: ^2.6.4
   vue: ^3.2.16
@@ -17,7 +16,6 @@ specifiers:
 dependencies:
   axios: registry.npmmirror.com/axios/0.24.0
   pinia: registry.npmmirror.com/pinia/2.0.23_l7r24p6nevbtlimqmqcwa3ouhu
-  qrcode: registry.npmmirror.com/qrcode/1.5.1
   vue: registry.npmmirror.com/vue/3.2.41
   vue-demi: registry.npmmirror.com/vue-demi/0.13.11_vue@3.2.41
   vue-router: registry.npmmirror.com/vue-router/4.1.5_vue@3.2.41
@@ -816,19 +814,6 @@ packages:
       nanoid: registry.npmmirror.com/nanoid/3.3.4
       picocolors: registry.npmmirror.com/picocolors/1.0.0
       source-map-js: registry.npmmirror.com/source-map-js/1.0.2
-
-  registry.npmmirror.com/qrcode/1.5.1:
-    resolution: {integrity: sha512-nS8NJ1Z3md8uTjKtP+SGGhfqmTCs5flU/xR623oI0JX+Wepz9R8UrRVCTBTJm3qGw3rH6jJ6MUHjkDx15cxSSg==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/qrcode/-/qrcode-1.5.1.tgz}
-    name: qrcode
-    version: 1.5.1
-    engines: {node: '>=10.13.0'}
-    hasBin: true
-    dependencies:
-      dijkstrajs: registry.npmmirror.com/dijkstrajs/1.0.2
-      encode-utf8: registry.npmmirror.com/encode-utf8/1.0.3
-      pngjs: registry.npmmirror.com/pngjs/5.0.0
-      yargs: registry.npmmirror.com/yargs/15.4.1
-    dev: false
 
   registry.npmmirror.com/require-directory/2.1.1:
     resolution: {integrity: sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/require-directory/-/require-directory-2.1.1.tgz}
